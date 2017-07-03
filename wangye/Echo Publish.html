@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/boot.jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.container-fluid{
+				padding-bottom: 40px;
+				background-color: #5e5293;
+			}
+			.page-header{
+				border-bottom: none;
+				padding: 0 40PX;
+			}
+			.page-header h1{
+				color: white;
+			}
+			#logo{
+			    height: 5.5rem;
+			    width: 5.5rem;
+			    padding-bottom: 1rem;
+			    padding-right: 1rem;
+			}
+			.page-header P{
+				color: #A0A0A0;
+				font-size: 25PX;
+			}
+			.page-header P a{
+				color: #A0A0A0;
+			}
+			.page-header P a:hover{
+				color: white;
+				text-decoration: none;
+			}
+			.page-header .user{
+				float: right;
+			}
+			.container{
+				background: white;
+			}
+			#cright{
+				background-color: #EEE;
+   				margin-top: 0.5rem;
+			}
+			#cright ul{
+				padding-left: 20px;
+			}
+			#cright ul li{
+				padding-top: 1rem;
+			}
+		</style>
+		
+		
+	</head>
+	<body>
+		<div class="container-fluid">
+		<div class="page-header">
+			<h1>
+				<a href="#">
+					<img id="logo" src="img/echo-reflect-roundel-orange.png"/>
+				</a>
+				Echo Publish</h1>
+			<p>Installation: Echo Publish for Demo</p>
+			<p>
+				<a href="#">Home</a> - 
+				<a href="#">Test</a> - 
+				<a href="#">Library</a> - 
+				<a href="#">Archive</a> - 
+				<a href="#">Account</a> - 
+				<a href="#">Help</a>
+				<span class="user">Not logged in.
+					<a href="#">Login</a>
+				</span>
+			</p>
+		</div>
+		</div>
+		<div class="container container-fluid">
+			<div class="row">
+				<div class="col-md-9">
+					<iframe src="guide.html" width="100%" height="500px" style="border: none;"></iframe>
+				</div>
+				<div id="cright" class="col-md-3">
+					<h2>About Echo Publish</h2>
+					<p>Echo Publish is a web service for generating and publishing formatted documents through the 
+						merging of templates and data.
+					</p>
+					<ul>
+						<li>This is a Beta release.</li>
+						<li>Please See the 'Help' page for guidance.</li>
+						<li>Some features are not yet fully live.</li>
+						<li>You may encounter bugs: please get in touch.</li>
+						<li>You may have questions: please get in touch.</li>
+						<li>We welcome feedback: please get in touch.</li>
+						<li>Contact: publish@echo-central.com</li>
+						<li>(c) Echo Central Ventures 2016</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

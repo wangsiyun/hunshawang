@@ -1,0 +1,419 @@
+.navbar-default {
+	background: #2C3E50;
+	border: none;
+}
+
+#example-navbar-collapse {
+	border: none;
+}
+
+.navbar-brand {
+	height: 100px !important;
+	margin-top: 5px;
+	margin-left: 50px !important;
+}
+
+.daohang {
+	margin-top: 25px;
+	font-size: 19px;
+	margin-right: 50px;
+	background: #2C3E50;
+	border: none;
+}
+
+.daohang li a {
+	color: white !important;
+}
+
+.daohang li a:hover {
+	color: #18BC9C !important;
+}
+
+.navbar-toggle {
+	margin-top: 35px;
+}
+
+
+
+header {
+	text-align: center;
+	background: #6f5499;
+	color: white;
+}
+
+header .container {
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+#tell {
+	padding-top: 70px;
+}
+
+.name {
+	font-size: 85px;
+	font-weight: bold;
+}
+
+.skills {
+	font-size: 25px;
+}
+
+#portfolio {
+	background: white;
+	z-index: 2;
+	padding: 85px 0;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+section span {
+	display: block;
+	font-size: 4em;
+	font-weight: bold;
+	color: #2C3E50;
+}
+
+.www {
+	margin-top: 20px;
+}
+
+.www-dd {
+	font-size: 20px;
+	color: #2c3e50;
+}
+
+.caption {
+	position: relative;
+}
+
+.xuanting {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+	background: rgba(111, 84, 153, 0.9);
+}
+
+.caption-content {
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	top: 36%;
+	transition: 1s;
+	color: white;
+}
+
+.portfolio-link:hover .caption-content {
+	opacity: 1;
+}
+
+.caption:hover .xuanting {
+	opacity: 1;
+}
+
+.wul li {
+	font-size: 15px;
+	line-height: 1.42857143;
+	color: #2c3e50;
+}
+
+
+/*.portfolio-link:hover .caption-content {
+				display: block;
+			}*/
+
+.success {
+	background: #6f5499;
+	color: white;
+}
+
+.dass {
+	font-size: 4em;
+	font-weight: bold;
+	display: block;
+	color: white;
+}
+
+h2 {
+	font-size: 4em;
+	font-weight: bold;
+	color: #2c3e50;
+}
+
+h3 {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.text-left p {
+	font-size: 20px;
+}
+
+.demo {
+	margin-top: 5%;
+}
+@media only screen and (min-width: 422px) and (max-width: 995px) {
+	.daohang{
+		margin-top: 0
+	}
+	
+}
+@media only screen and (min-width: 269px) and (max-width: 422px) {
+	.navbar-brand {
+		height: 75px !important;
+		margin-left: 0 !important;
+	}
+	.navbar-toggle{
+		margin-top: 20px;	
+	}
+	.name{
+		font-size: 65px;
+	}
+}
+
+.li {
+	margin-left: 15px;
+}
+
+.active a {
+	background: #2c3e50 !important;
+}
+
+.nav-pills li a {
+	color: #6f5499 !important;
+}
+.nav-pills li a:focus{
+	color: white !important;
+}
+.active a:visited{
+	color: white !important;
+}
+
+.tab-content {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+#tryout{
+	width: 95%;
+	height: 600px;
+	border: 1px solid;
+}
+.wenzi1{
+	padding-left: 2%;
+	width: 95%;
+}
+.wenzi1 .p1 {
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+.wenzi1 p {
+	font-size: 25px;
+}
+
+.wenzi1 ul {
+	width: auto;
+	background: #fafafa;
+	list-style: none;
+	height: 160px;
+	padding: 10px 40px;
+	position: relative;
+}
+.wenzi1 ul li{
+	float: left;
+	/*text-align: center;*/
+	width: 120px;
+	
+}
+.tr2{
+	margin-left: 40px;
+	position: absolute;
+	right: 0;
+	/*top: 0;*/
+}
+.wenzi1 label {
+	width: 100%;
+	padding-top: 75px;
+	background: url(../img/file.png) no-repeat;
+	cursor: pointer;
+	position: relative;
+	font-weight: 700;
+}
+
+.wenzi1 label .marke {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: green;
+	text-align: center;
+	font-weight: bold;
+	font-family: fantasy;
+	color: white;
+	width: 15px;
+	border-radius: 100%;
+	height: 15px;
+}
+
+.View {
+	width: 40px;
+	height: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.View a {
+	margin-left: 20%;
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+
+
+.wenzi1 label:hover .View a{
+	animation: malef 0.5s linear forwards;
+}
+
+@keyframes malef {
+	from {
+		left: 40px;
+	}
+	to {
+		left: 0;
+	}
+}
+
+.jia {
+	text-align: center;
+	margin-top: 7%;
+	color: silver;
+}
+
+.buttn {
+	margin-top: 1%;
+	margin-left: 27%;
+}
+
+#filterButton {
+	width: 65% !important;
+}
+
+.deng {
+	padding-top: 50px;
+	font-size: 60px;
+	color: silver;
+	text-align: center;
+}
+
+#Document {
+	width: 20%;
+}
+
+h4 {
+	border-radius: 10px;
+	background-color: #fafafa;
+	padding: 10px;
+}
+
+.Echo {
+	padding: 30px 0;
+}
+
+.Echo p {
+	font-size: 20px;
+	color: #2c3e50;
+}
+
+.Echo p a {
+	font-size: 20px;
+	color: #6f5499;
+}
+
+#about {
+	background: #6f5499;
+	padding: 60px 0;
+}
+
+.pri {
+	color: white;
+}
+
+.free p {
+	font-size: 19px;
+}
+#ACCOUNT{
+	padding-bottom: 70px;
+}
+#ACCOUNT p{
+	font-size: 20px;
+    color: #2c3e50;
+}
+
+.form-group{
+	width: 65%;
+	border-top: 1px solid gainsboro;
+	height: 90px;
+	margin-bottom: 0 !important;
+	margin-left: 18%;
+}
+
+.form-group input{
+	font-size: 20px;
+	border: none;
+	line-height: 85px;
+	margin-left: 3%;
+	
+}
+.form-group input:focus{
+	outline: medium;
+}
+.buu{
+	margin-top: 50px;
+	padding-top: 20px;
+}
+.footer-above{
+	background: #2C3E50;
+	padding: 40px 0;
+}
+.FIND{
+	font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.footer-col{
+	font-size: 19px;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.list-inline li{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	border: 1px solid white;
+	margin-left: 5px;
+	transition: 1s;
+}
+.list-inline li:hover{
+	color: #6f5499;
+	background: white;
+}
+.footer-below{
+	padding: 20px 0;
+	background: #233140;
+	color: white;
+}
